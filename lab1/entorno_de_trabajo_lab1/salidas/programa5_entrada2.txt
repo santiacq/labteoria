@@ -1,0 +1,3 @@
+(cantidad_mayores,0)
+(suma,0)
+(promedio,suma / cantidad_mayores)

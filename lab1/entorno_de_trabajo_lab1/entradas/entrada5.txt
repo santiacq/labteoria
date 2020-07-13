@@ -1,0 +1,20 @@
+***No intentes entenderlo, no tiene sentido***
+funcion sin_sentido(){
+     paraA  :  Entero   =  1
+   mientras1: Entero = 2
+    cadaa:Entero=3
+    sistema: Entero = 4
+    entero: Entero = 7
+    
+    para cada item en lista   {
+        paraA = paraA + 1
+        cadaa = mientras1 + paraA
+        si paraA > mientras1 {
+            sistema   =    sistema     -    cadaa
+        }
+        mientras cadaa<mientras1&&verdadero{cadaa=cadaa*2}
+        para iter: Entero = 5 ->100{
+            // No hago nada
+        }
+    }
+}

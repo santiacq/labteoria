@@ -1,0 +1,12 @@
+funcion promedio_mayores_que_N(n: Real, lista: Lista<Entero>) -> Real {
+    cantidad_mayores: Real = 0
+    suma: Entero = 0
+    para cada entrada en lista {
+        si entrada > n {
+            cantidad_mayores = cantidad_mayores + 1
+            suma = suma + entrada
+        }
+    }
+    promedio: Real = suma / cantidad_mayores
+    devolver promedio
+}

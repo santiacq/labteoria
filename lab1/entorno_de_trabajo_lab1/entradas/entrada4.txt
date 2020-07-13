@@ -1,0 +1,9 @@
+***Calcula en indice de masa corporal***
+funcion calcularIMC(alturaEnMetros: Real, pesoEnGramos: Real) -> Real {
+    // Hay que pasar a kilogramos para aplicar la ecuacion
+    pesoEnKilos: Real = pesoEnGramos / 1000
+    alturaAlCuadrado: Real = alturaEnMetros * alturaEnMetros
+    imc: Real = pesoEnKilos / alturaAlCuadrado
+    
+    devolver imc
+}

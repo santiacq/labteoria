@@ -1,0 +1,3 @@
+(capital_final,capital_inicial)
+(anios,largo(intereses_anuales))
+(i,0)

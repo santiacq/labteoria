@@ -1,0 +1,3 @@
+es_simetrica
+M: Lista<Lista<Entero>>
+Booleano

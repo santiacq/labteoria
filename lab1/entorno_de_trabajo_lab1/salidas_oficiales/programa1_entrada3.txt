@@ -1,0 +1,16 @@
+funcion es_simetrica(M: Lista<Lista<Entero>>) -> Booleano {
+    i: Entero = 1
+    resultado: Booleano = verdadero
+    mientras resultado && i <= largo(M) {
+        j: Entero = i + 1
+        mientras resultado && j <= largo(M(i)) {
+            si M(i)(j) == M(j)(i) {
+                j = j + 1
+            } sino {
+                resultado = falso
+            }
+        }
+        i = i+1
+    }
+    devolver resultado
+}

@@ -1,0 +1,3 @@
+promedio_mayores_que_N
+n: Real, lista: Lista<Entero>
+Real

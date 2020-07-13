@@ -1,0 +1,4 @@
+si: 1
+para: 0
+para-cada: 0
+mientras: 2

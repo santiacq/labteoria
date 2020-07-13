@@ -1,0 +1,2 @@
+booleanas: 5
+no booleanas: 3

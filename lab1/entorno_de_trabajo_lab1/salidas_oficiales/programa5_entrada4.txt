@@ -1,0 +1,3 @@
+(pesoEnKilos,pesoEnGramos / 1000)
+(alturaAlCuadrado,alturaEnMetros * alturaEnMetros)
+(imc,pesoEnKilos / alturaAlCuadrado)

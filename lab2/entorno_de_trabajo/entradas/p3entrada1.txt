@@ -1,0 +1,1 @@
+Este texto esta en *negrita*, y este esta en _cursiva_. Tambien podemos usar (parentesis).

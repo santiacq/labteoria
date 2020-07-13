@@ -1,0 +1,2 @@
+(capital_final,capital_inicial    anios)
+(i,0)

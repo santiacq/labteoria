@@ -1,0 +1,9 @@
+funcion interes_compuesto(capital_incial: Real, intereses_anuales: Lista<Real>) -> Real {
+    capital_final: Real = capital_inicial
+    anios: Entero = largo(intereses_anuales)
+    para i: Entero = 0 -> anios - 1 {
+        // Aplico el interes del anio
+        capital_final = capital_final * intereses_anuales[i]
+    }
+    devolver capital_final
+}

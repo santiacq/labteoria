@@ -1,0 +1,3 @@
+interes_compuesto
+capital_incial: Real, intereses_anuales: Lista<Real>
+Real

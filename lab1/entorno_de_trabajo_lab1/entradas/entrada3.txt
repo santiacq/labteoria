@@ -1,0 +1,18 @@
+***Si la matriz es simetrica, devuelve verdadero, sino devuelve falso***
+funcion es_simetrica(M: Lista<Lista<Entero>>) -> Booleano {
+    i: Entero = 1
+    resultado: Booleano = verdadero
+    // Uso mientras para cortar antes la iteracion si ya se que no es simetrica
+    mientras resultado && i <= largo(M) {
+        j: Entero = i + 1
+        mientras resultado && j <= largo(M(i)) {
+            si M(i)(j) == M(j)(i) {
+                j = j + 1
+            } sino {
+                resultado = falso
+            }
+        }
+        i = i+1
+    }
+    devolver resultado
+}

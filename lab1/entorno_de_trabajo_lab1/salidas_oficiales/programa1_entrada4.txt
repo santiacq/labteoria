@@ -1,0 +1,7 @@
+funcion calcularIMC(alturaEnMetros: Real, pesoEnGramos: Real) -> Real {
+    pesoEnKilos: Real = pesoEnGramos / 1000
+    alturaAlCuadrado: Real = alturaEnMetros * alturaEnMetros
+    imc: Real = pesoEnKilos / alturaAlCuadrado
+    
+    devolver imc
+}

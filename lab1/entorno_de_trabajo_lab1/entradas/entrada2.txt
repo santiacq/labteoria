@@ -1,0 +1,15 @@
+// Devuelve el promedio de todos los elementos de la lista que son mayores que n
+funcion promedio_mayores_que_N(n: Real, lista: Lista<Entero>) -> Real {
+    cantidad_mayores: Real = 0
+    suma: Entero = 0
+    *** Para cada numero en la lista: si el numero es mayor que n, aumento el 
+    contador y sumo su valor ***
+    para cada entrada en lista {
+        si entrada > n {
+            cantidad_mayores = cantidad_mayores + 1
+            suma = suma + entrada
+        }
+    }
+    promedio: Real = suma / cantidad_mayores
+    devolver promedio
+}

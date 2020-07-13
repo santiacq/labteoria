@@ -1,0 +1,6 @@
+(paraA,1)
+(mientras1,2)
+(cadaa,3)
+(sistema,4)
+(entero,7)
+(iter,5)
